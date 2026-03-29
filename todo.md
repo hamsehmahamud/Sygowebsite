@@ -67,6 +67,8 @@
 - [x] Logo with hover animation and modern design
 - [x] Youth Campaign image with real photo of young women learning
 - [x] Logo badge in hero section with pulse animation and hover scale effect
+- [x] Full organization name in header with Playfair Display font
+- [x] Full organization name in footer with modern fonts (Poppins + Playfair Display)
 - [ ] Responsive mobile menu
 - [x] "Donate Now" button in nav
 

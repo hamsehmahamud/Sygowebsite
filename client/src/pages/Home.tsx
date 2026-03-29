@@ -46,11 +46,11 @@ export default function Home() {
             className="w-14 h-14 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
           />
           <div className="flex flex-col justify-center hidden sm:block">
-            <div className="text-xl font-bold tracking-tight text-[var(--brand-purple)] dark:text-white transition-colors duration-300">
+            <div className="text-lg font-bold tracking-tight text-[var(--brand-purple)] dark:text-white transition-colors duration-300" style={{ fontFamily: 'Playfair Display, serif' }}>
               SYGO
             </div>
-            <div className="text-[0.65rem] font-bold text-[var(--brand-pink)] tracking-wide mt-0.5">
-              Youth Empowerment
+            <div className="text-[0.7rem] font-semibold text-[var(--brand-pink)] tracking-wider mt-1" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              Somali Youth Growth Mind Organization
             </div>
           </div>
         </div>
@@ -500,13 +500,15 @@ export default function Home() {
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-16">
             {/* Brand Info */}
             <div className="space-y-6">
-              <div className="flex items-center gap-3">
-                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center p-1 shadow-lg overflow-hidden font-bold text-[var(--brand-purple)] text-2xl">
-                  S
-                </div>
+              <div className="flex items-center gap-4">
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663064963549/cw695QZ2yhxVayC4QWH3o7/WhatsAppImage2026-03-29at20.26.45_ec1c6860.jpeg"
+                  alt="SYGO Logo"
+                  className="w-16 h-16 object-contain drop-shadow-lg"
+                />
                 <div className="flex flex-col">
-                  <div className="text-3xl font-bold leading-none">SYGO</div>
-                  <div className="text-xs text-[var(--brand-yellow)] font-bold mt-1 max-w-[200px]">
+                  <div className="text-3xl font-bold leading-none text-white" style={{ fontFamily: 'Playfair Display, serif' }}>SYGO</div>
+                  <div className="text-sm text-[var(--brand-yellow)] font-semibold mt-2 max-w-[280px] leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
                     Somali Youth Growth Mind Organization
                   </div>
                 </div>
