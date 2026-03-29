@@ -74,41 +74,41 @@
 ## Frontend - Admin Dashboard
 
 ### Dashboard Layout
-- [ ] Admin sidebar navigation
-- [ ] Dashboard overview/stats page
-- [ ] Role-based access control (admin only)
-- [ ] User profile section
+- [x] Admin sidebar navigation
+- [x] Dashboard overview/stats page
+- [x] Role-based access control (admin only)
+- [x] User profile section
 
 ### Projects Management
-- [ ] List all projects with pagination
+- [x] List all projects with pagination
 - [ ] Create new project form
 - [ ] Edit project details
 - [ ] Delete project functionality
 - [ ] Image upload to S3
-- [ ] Project status tracking
+- [x] Project status tracking
 
 ### Interventions Management
-- [ ] List all interventions
+- [x] List all interventions
 - [ ] Create new intervention
 - [ ] Edit intervention details
 - [ ] Delete intervention
 - [ ] Image upload to S3
-- [ ] Category assignment (GBV Response, Awareness, Leadership)
+- [x] Category assignment (GBV Response, Awareness, Leadership)
 
 ### Milestones Management
-- [ ] List all milestones
+- [x] List all milestones
 - [ ] Create new milestone
 - [ ] Edit milestone details
 - [ ] Delete milestone
-- [ ] Date and category management
-- [ ] Featured milestone selection
+- [x] Date and category management
+- [x] Featured milestone selection
 
 ### Content Management
-- [ ] Edit homepage hero content
-- [ ] Edit about section content
-- [ ] Edit values and mission statements
-- [ ] Manage focus areas descriptions
-- [ ] Update statistics (Youth Engaged count)
+- [x] Edit homepage hero content
+- [x] Edit about section content
+- [x] Edit values and mission statements
+- [x] Manage focus areas descriptions
+- [x] Update statistics (Youth Engaged count)
 
 ## Backend - Database Schema
 
