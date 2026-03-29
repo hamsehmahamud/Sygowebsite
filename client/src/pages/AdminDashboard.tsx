@@ -36,9 +36,11 @@ export default function AdminDashboard() {
         {/* Logo */}
         <div className="p-6 border-b border-slate-200 dark:border-slate-700">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[var(--brand-purple)] to-[var(--brand-pink)] flex items-center justify-center text-white font-bold">
-              S
-            </div>
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663064963549/cw695QZ2yhxVayC4QWH3o7/WhatsAppImage2026-03-29at20.26.45_ec1c6860.jpeg"
+              alt="SYGO Logo"
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="font-bold text-slate-900 dark:text-white">SYGO</h1>
               <p className="text-xs text-slate-600 dark:text-slate-400">Admin Panel</p>
