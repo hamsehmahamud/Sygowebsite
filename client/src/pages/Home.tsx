@@ -124,9 +124,13 @@ export default function Home() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="absolute -bottom-12 -left-12 w-56 h-56 rounded-full bg-white dark:bg-slate-800 z-20 border-8 border-[var(--brand-yellow)] dark:border-[var(--brand-yellow)]/80 shadow-xl hidden md:flex items-center justify-center p-3 transition-colors duration-300">
-              <div className="w-full h-full flex items-center justify-center bg-[var(--brand-purple)] rounded-full text-white font-bold text-6xl">
-                S
+            <div className="absolute -bottom-12 -left-12 w-56 h-56 rounded-full bg-white dark:bg-slate-800 z-20 border-8 border-[var(--brand-yellow)] dark:border-[var(--brand-yellow)]/80 shadow-xl hidden md:flex items-center justify-center p-3 transition-colors duration-300 animate-pulse">
+              <div className="w-full h-full flex items-center justify-center rounded-full overflow-hidden hover:scale-110 transition-transform duration-500">
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663064963549/cw695QZ2yhxVayC4QWH3o7/WhatsAppImage2026-03-29at20.26.45_ec1c6860.jpeg"
+                  alt="SYGO Logo Badge"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
             </div>
             <div className="absolute -top-6 -right-6 bg-white dark:bg-slate-800 p-6 rounded-3xl shadow-xl z-20 flex items-center gap-4 border-2 border-[var(--pastel-green)] dark:border-slate-700 playful-card transition-colors duration-300">

@@ -66,6 +66,7 @@
 - [x] SYGO logo image integrated in navbar and admin dashboard
 - [x] Logo with hover animation and modern design
 - [x] Youth Campaign image with real photo of young women learning
+- [x] Logo badge in hero section with pulse animation and hover scale effect
 - [ ] Responsive mobile menu
 - [x] "Donate Now" button in nav
 
