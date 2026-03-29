@@ -76,6 +76,17 @@
   --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.623 0.214 259.815);
+  /* SYGO Brand Colors */
+  --brand-blue: #4CC9F0;
+  --brand-pink: #F72585;
+  --brand-purple: #7209B7;
+  --brand-yellow: #FFD60A;
+  --brand-green: #4361EE;
+  --pastel-blue: #E0FBFC;
+  --pastel-green: #F0FFF4;
+  --pastel-yellow: #FFF9DB;
+  --pastel-purple: #F3E8FF;
+  --on-surface: #2D3142;
 }
 
 .dark {
@@ -111,6 +122,17 @@
   --sidebar-accent-foreground:  oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.488 0.243 264.376);
+  /* SYGO Brand Colors - Dark Mode */
+  --brand-blue: #4CC9F0;
+  --brand-pink: #F72585;
+  --brand-purple: #7209B7;
+  --brand-yellow: #FFD60A;
+  --brand-green: #4361EE;
+  --pastel-blue: #1e293b;
+  --pastel-green: #1e293b;
+  --pastel-yellow: #1e293b;
+  --pastel-purple: #1e293b;
+  --on-surface: #e2e8f0;
 }
 
 @layer base {
@@ -158,6 +180,26 @@
   .flex {
     min-height: 0;
     min-width: 0;
+  }
+
+  .playful-card {
+    @apply transition-all duration-300 hover:-rotate-1 hover:scale-[1.02];
+  }
+
+  .bouncy-btn {
+    @apply transition-all duration-300 active:scale-90 hover:shadow-lg;
+  }
+
+  .nav-link {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-[var(--brand-yellow)] after:transition-all hover:after:w-full;
+  }
+
+  .rounded-irregular-1 {
+    border-radius: 2rem 1rem 4rem 1.5rem;
+  }
+
+  .rounded-irregular-2 {
+    border-radius: 1.5rem 3rem 1rem 2rem;
   }
 
   @media (min-width: 640px) {
