@@ -26,6 +26,7 @@
 - [x] Category badges (GBV Response, Awareness, Leadership)
 - [x] Project descriptions and call-to-action buttons
 - [x] "View All Projects" link
+- [x] Youth Campaign image integrated with real photo
 
 ### Impact & Updates Hub
 - [x] Milestone cards with dashed borders
@@ -64,6 +65,7 @@
 - [x] Navigation links (Home, About, Causes, Impact, Contact)
 - [x] SYGO logo image integrated in navbar and admin dashboard
 - [x] Logo with hover animation and modern design
+- [x] Youth Campaign image with real photo of young women learning
 - [ ] Responsive mobile menu
 - [x] "Donate Now" button in nav
 

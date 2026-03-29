@@ -117,11 +117,12 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="relative z-10 rounded-irregular-1 overflow-hidden aspect-square shadow-2xl border-8 border-white dark:border-slate-800 transition-colors duration-300 bg-gradient-to-br from-[var(--brand-blue)]/20 to-[var(--brand-purple)]/20 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🌍</div>
-                <p className="text-lg font-bold text-[var(--brand-purple)]">Youth Campaign</p>
-              </div>
+            <div className="relative z-10 rounded-irregular-1 overflow-hidden aspect-square shadow-2xl border-8 border-white dark:border-slate-800 transition-colors duration-300">
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663064963549/cw695QZ2yhxVayC4QWH3o7/IMG-20251030-WA0035_7a2df967.jpg"
+                alt="Youth Campaign - Young Women Learning"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="absolute -bottom-12 -left-12 w-56 h-56 rounded-full bg-white dark:bg-slate-800 z-20 border-8 border-[var(--brand-yellow)] dark:border-[var(--brand-yellow)]/80 shadow-xl hidden md:flex items-center justify-center p-3 transition-colors duration-300">
               <div className="w-full h-full flex items-center justify-center bg-[var(--brand-purple)] rounded-full text-white font-bold text-6xl">
